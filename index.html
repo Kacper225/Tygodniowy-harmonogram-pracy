@@ -8,15 +8,20 @@
 
     <body>
       <center>
-<div class="mid">
 
+<div class="mid">
+<table>
 <form action="zadanie.php">
-  <label for="fname">Imie:</label>
-  <input type="text" id="fname" name="fname" value="John"><br>
-  <label for="lname">Nazwisko:</label>
-  <input type="text" id="lname" name="lname" value="Doe"><br><br>
-  <input type="submit">
-</form> 
+  <tr>
+  <td><label for="fname">Login:</label></td>
+  <td><input type="text" id="login" name="login"></td><br>
+  </tr>
+  <td><label for="lname">Haslo:</label></td>
+  <td><input type="password" id="haslo" name="haslo"></td><br><br>
+  <tr>
+    <td colspan="2" class="zaloguj"><input class="log" type="submit" value="Zaloguj"></td>
+  </tr>
+</form></table>
 </div></center>
     </body>
 </html>
