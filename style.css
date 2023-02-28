@@ -1,2 +1,13 @@
+body{
+    background-color:antiquewhite;
+}
+.mid{
+    background-color:lightblue;
+    border-radius: 50px;
+    height: 50px;
+    width: 50px;
+    padding: 15%;
+    text-align: center;
+}
 
 @media only screen and (max-device-width: 1024px) {}
