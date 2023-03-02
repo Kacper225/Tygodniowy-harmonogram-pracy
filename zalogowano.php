@@ -31,6 +31,7 @@ echo '<a href="logout.php"><div style="float:right; background: radial-gradient(
 </p>
 
 
+
 <div class="kalendar">
 <div class="calendar">
   
@@ -236,9 +237,70 @@ echo '<a href="logout.php"><div style="float:right; background: radial-gradient(
 </div>
 </div>
 </div>
+</div>
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+<div class="kalendarr">
+<div class="calendarr">
+  
+  <header>
+
+        <h1 class="" style="flex: 1;"><span></span><strong>Dodaj zadanie</strong></h1>
+
+  </header>
+  
+  <div class="out">
+
+  
+
+
+<div class="wraped"> 
+  <table class="offsett">
+
+  <tbody>
+   
+    <tr>
+      <td class="headcols"></td>
+      <td></td>
+      <td></td>
+    </tr>
+  
+    <tr>
+      <td class="headcols"></td>
+      <td></td>
+      <td></td>
+    </tr>
+
+    <tr>
+      <td class="headcols"></td>
+      <td></td>
+      <td></td>
+    </tr>
+  
+    <tr>
+      <td class="headcols"></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
 </body>
 </html>
