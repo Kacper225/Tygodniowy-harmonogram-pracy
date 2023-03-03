@@ -271,29 +271,30 @@ echo '<a href="logout.php"><div style="float:right; background: radial-gradient(
 
   <tbody>
    
-    <tr>
-      <td class="headcols"></td>
-      <td></td>
-      <td></td>
-    </tr>
-  
-    <tr>
-      <td class="headcols"></td>
-      <td></td>
-      <td></td>
-    </tr>
+<form action="dodaj.php" method="post">
 
     <tr>
       <td class="headcols"></td>
-      <td></td>
-      <td></td>
+      <td>Podaj imie:<br><input type="text" name="imie" required/></td>
+      <td>Podaj nazwisko:<br><input type="text" name="nazwisko" required/></td>
     </tr>
-  
     <tr>
       <td class="headcols"></td>
-      <td></td>
-      <td></td>
+      <td>Rozpoczęcie:<br><input type="time" name="rozpoczecie" required/></td>
+      <td>Zakończenie:<br><input type="time" name="zakonczenie" required/></td>
     </tr>
+    <tr>
+      <td class="headcols"></td>
+      <td colspan="2">Dzień rozpoczęcia:<br><input type="text" name="dzien" required/></td>
+      
+    </tr>
+    <tr>
+      <td class="headcols"></td>
+      <td colspan="2"><button type="submit">Dodaj</button></td>
+    </tr>
+</form>
+
+  
   </tbody>
 </table>
 </div>
