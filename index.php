@@ -4,7 +4,7 @@
 	
 	if ((isset($_SESSION['zalogowany'])) && ($_SESSION['zalogowany']==true))
 	{
-		header('Location: zalagowano.php');
+		header('Location: zalogowano.php');
 		exit();
 	}
 
@@ -37,13 +37,13 @@
     <td colspan="2" class="zaloguj"><input class="log" type="submit" value="Zaloguj"></td>
   </tr>
 </form></table>
-
-</div></center>
-   
-
 <?php
 	if(isset($_SESSION['blad']))	echo $_SESSION['blad'];
 ?>
+</div></center>
+   
+
+
 
 
 

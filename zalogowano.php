@@ -245,13 +245,6 @@ echo '<a href="logout.php"><div style="float:right; background: radial-gradient(
 
 
 
-
-
-
-
-
-
-
 <div class="kalendarr">
 <div class="calendarr">
   
@@ -275,22 +268,22 @@ echo '<a href="logout.php"><div style="float:right; background: radial-gradient(
 
     <tr>
       <td class="headcols"></td>
-      <td>Podaj imie:<br><input type="text" name="imie" required/></td>
-      <td>Podaj nazwisko:<br><input type="text" name="nazwisko" required/></td>
+      <td>Podaj imie:<br><input style="border:1px solid grey; border-radius:3px; margin-top:5px;" type="text" name="imie" required/></td>
+      <td>Podaj nazwisko:<br><input style="border:1px solid grey; border-radius:3px; margin-top:5px;" type="text" name="nazwisko" required/></td>
     </tr>
     <tr>
       <td class="headcols"></td>
-      <td>Rozpoczęcie:<br><input type="time" name="rozpoczecie" required/></td>
-      <td>Zakończenie:<br><input type="time" name="zakonczenie" required/></td>
+      <td>Rozpoczęcie:<br><input style="border:1px solid grey; border-radius:3px; margin-top:5px;" type="time" name="rozpoczecie" required/></td>
+      <td>Zakończenie:<br><input style="border:1px solid grey; border-radius:3px; margin-top:5px;" type="time" name="zakonczenie" required/></td>
     </tr>
     <tr>
       <td class="headcols"></td>
-      <td colspan="2">Dzień rozpoczęcia:<br><input type="text" name="dzien" required/></td>
+      <td colspan="2">Dzień rozpoczęcia:<br><input style="border:1px solid grey; border-radius:3px; margin-top:5px;" type="text" name="dzien" required/></td>
       
     </tr>
     <tr>
       <td class="headcols"></td>
-      <td colspan="2"><button type="submit">Dodaj</button></td>
+      <td colspan="2"><button class="button_dodaj" type="submit">Dodaj</button></td>
     </tr>
 </form>
 
