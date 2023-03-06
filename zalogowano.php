@@ -1,13 +1,10 @@
 <?php
-
 	session_start();
-	
 	if (!isset($_SESSION['zalogowany']))
 	{
 		header('Location: index.php');
 		exit();
 	}
-	
 ?>
 <!DOCTYPE HTML>
 <html lang="pl">
@@ -16,7 +13,6 @@
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 </head>
-
 <body>
 	
 <?php
@@ -30,23 +26,15 @@ echo '<a href="logout.php"><div style="float:right; background: radial-gradient(
 	?>
 </p>
 
-
+<div class="container">
 
 <div class="kalendar">
-<div class="calendar">
   
-  <header>
-
-      <div class="calendar__title" style="display: flex; justify-content: center; align-items: center">
-        <div class="icon secondary chevron_left">‹</div>
-        <h1 class="" style="flex: 1;"><span></span><strong>06.03 - 10.03</strong> 2023</h1>
-        <div class="icon secondary chevron_left">›</div>
-      </div> 
-      <div style="align-self: flex-start; flex: 0 0 1"></div>
+  <header style="display: flex; justify-content: center; align-items: center">
+        <div class="icon">‹</div>
+        <h1><strong>06.03 - 10.03</strong> 2023</h1>
+        <div class="icon">›</div>
   </header>
-  
-  <div class="outer">
-
   
   <table class="aaa">
   <thead>
@@ -57,7 +45,6 @@ echo '<a href="logout.php"><div style="float:right; background: radial-gradient(
       <th>Środa</th>
       <th>Czwartek</th>
       <th>Piątek</th>
-
     </tr>
   </thead>
   </table>
@@ -73,8 +60,8 @@ echo '<a href="logout.php"><div style="float:right; background: radial-gradient(
       <td></td>
       <td></td>
       <td></td>
-
     </tr>
+
     <tr>
       <td class="headcol">8:00</td>
       <td></td>
@@ -82,8 +69,8 @@ echo '<a href="logout.php"><div style="float:right; background: radial-gradient(
       <td></td>
       <td></td>
       <td></td>
-
     </tr>
+
     <tr>
       <td class="headcol"></td>
       <td></td>
@@ -91,8 +78,8 @@ echo '<a href="logout.php"><div style="float:right; background: radial-gradient(
       <td></td>
       <td></td>
       <td></td>
-
     </tr>
+
     <tr>
       <td class="headcol">9:00</td>
       <td></td>
@@ -100,8 +87,8 @@ echo '<a href="logout.php"><div style="float:right; background: radial-gradient(
       <td></td>
       <td></td>
       <td></td>
-
     </tr>
+
     <tr>
       <td class="headcol"></td>
       <td></td>
@@ -109,8 +96,8 @@ echo '<a href="logout.php"><div style="float:right; background: radial-gradient(
       <td></td>
       <td></td>
       <td></td>
-
     </tr>
+
     <tr>
       <td class="headcol">10:00</td>
       <td></td>
@@ -118,8 +105,8 @@ echo '<a href="logout.php"><div style="float:right; background: radial-gradient(
       <td></td>
       <td></td>
       <td></td>
-
     </tr>
+
     <tr>
       <td class="headcol"></td>
       <td></td>
@@ -127,8 +114,8 @@ echo '<a href="logout.php"><div style="float:right; background: radial-gradient(
       <td></td>
       <td></td>
       <td></td>
-
     </tr>
+
     <tr>
       <td class="headcol">11:00</td>
       <td></td>
@@ -136,8 +123,8 @@ echo '<a href="logout.php"><div style="float:right; background: radial-gradient(
       <td></td>
       <td></td>
       <td></td>
-
     </tr>
+
     <tr>
       <td class="headcol"></td>
       <td></td>
@@ -145,8 +132,8 @@ echo '<a href="logout.php"><div style="float:right; background: radial-gradient(
       <td></td>
       <td></td>
       <td></td>
-
     </tr>
+
     <tr>
       <td class="headcol">12:00</td>
       <td></td>
@@ -154,8 +141,8 @@ echo '<a href="logout.php"><div style="float:right; background: radial-gradient(
       <td></td>
       <td></td>
       <td></td>
-
     </tr>
+
     <tr>
       <td class="headcol"></td>
       <td></td>
@@ -163,8 +150,8 @@ echo '<a href="logout.php"><div style="float:right; background: radial-gradient(
       <td></td>
       <td></td>
       <td></td>
-
     </tr>
+
     <tr>
       <td class="headcol">13:00</td>
       <td></td>
@@ -172,8 +159,8 @@ echo '<a href="logout.php"><div style="float:right; background: radial-gradient(
       <td></td>
       <td></td>
       <td></td>
-
     </tr>
+
     <tr>
       <td class="headcol"></td>
       <td></td>
@@ -181,8 +168,8 @@ echo '<a href="logout.php"><div style="float:right; background: radial-gradient(
       <td></td>
       <td></td>
       <td></td>
-
     </tr>
+
     <tr>
       <td class="headcol">14:00</td>
       <td></td>
@@ -190,8 +177,8 @@ echo '<a href="logout.php"><div style="float:right; background: radial-gradient(
       <td></td>
       <td></td>
       <td></td>
-
     </tr>
+
     <tr>
       <td class="headcol"></td>
       <td></td>
@@ -199,8 +186,8 @@ echo '<a href="logout.php"><div style="float:right; background: radial-gradient(
       <td></td>
       <td></td>
       <td></td>
-
     </tr>
+
     <tr>
       <td class="headcol">15:00</td>
       <td></td>
@@ -208,8 +195,8 @@ echo '<a href="logout.php"><div style="float:right; background: radial-gradient(
       <td></td>
       <td></td>
       <td></td>
-
     </tr>
+
     <tr>
       <td class="headcol"></td>
       <td></td>
@@ -217,9 +204,8 @@ echo '<a href="logout.php"><div style="float:right; background: radial-gradient(
       <td></td>
       <td></td>
       <td></td>
-
-
     </tr>
+
     <tr>
       <td class="headcol">16:00</td>
       <td></td>
@@ -227,74 +213,45 @@ echo '<a href="logout.php"><div style="float:right; background: radial-gradient(
       <td></td>
       <td></td>
       <td></td>
-
     </tr>
-
 
   </tbody>
 </table>
 </div>
 </div>
-</div>
-</div>
-</div>
 
 
+<div class="kall">
 
-
-
-
-
-<div class="kalendarr">
-<div class="calendarr">
-  
-  <header>
-
-        <h1 class="" style="flex: 1;"><span></span><strong>Dodaj zadanie</strong></h1>
-
-  </header>
-  
-  <div class="out">
-
-  
-
-
-<div class="wraped"> 
-  <table class="offsett">
-
-  <tbody>
-   
+  <table class="tab">
 <form action="dodaj.php" method="post">
+  <tr>
+    <td colspan="2" style="font-size:20px">Dodaj zadanie</td>
+  </tr>
 
     <tr>
-      <td class="headcols"></td>
       <td>Podaj imie:<br><input style="border:1px solid grey; border-radius:3px; margin-top:5px;" type="text" name="imie" required/></td>
       <td>Podaj nazwisko:<br><input style="border:1px solid grey; border-radius:3px; margin-top:5px;" type="text" name="nazwisko" required/></td>
     </tr>
+
     <tr>
-      <td class="headcols"></td>
       <td>Rozpoczęcie:<br><input style="border:1px solid grey; border-radius:3px; margin-top:5px;" type="time" name="rozpoczecie" required/></td>
       <td>Zakończenie:<br><input style="border:1px solid grey; border-radius:3px; margin-top:5px;" type="time" name="zakonczenie" required/></td>
     </tr>
+
     <tr>
-      <td class="headcols"></td>
-      <td colspan="2">Dzień rozpoczęcia:<br><input style="border:1px solid grey; border-radius:3px; margin-top:5px;" type="text" name="dzien" required/></td>
-      
+      <td>Nazwa zadania:<br><input style="border:1px solid grey; border-radius:3px; margin-top:5px;" type="text" name="nazwa" required/></td>
+      <td>Dzień rozpoczęcia:<br><input style="border:1px solid grey; border-radius:3px; margin-top:5px;" type="text" name="dzien" required/></td>
     </tr>
+
     <tr>
-      <td class="headcols"></td>
       <td colspan="2"><button class="button_dodaj" type="submit">Dodaj</button></td>
     </tr>
 </form>
-
-  
-  </tbody>
 </table>
 </div>
+
 </div>
-</div>
-</div>
-</div>
-</div>
+
 </body>
 </html>
