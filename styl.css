@@ -16,9 +16,6 @@ html{
 
   .wrap {
     overflow-x: hidden;
-    overflow-y: scroll;
-    width: 100%;
-    height: 500px;
     border-radius: 8px;
   }
   
